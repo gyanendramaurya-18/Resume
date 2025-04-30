@@ -12,70 +12,15 @@ body {
 }
 
 header {
-background: #424241d5;
-color: white;
-padding: 20px;
-display: flex; /* Use flexbox for layout */
-justify-content: space-between; /* Space between items */
-align-items: center; /* Center items vertically */
-}
-
-.header-content {
-display: flex; /* Use flexbox for header content */
-align-items: center; /* Center items vertically */
+    background: hsl(46, 84%, 71%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 .profile-pic {
-width: 350px; /* Adjust size as needed */
-height: 350px; /* Adjust size as needed */
-border-radius: 50%; /* Makes the image circular */
-margin-right: 20px; /* Space between image and text */
-}
-
-.header-text {
-flex: 1; /* Allow text to take remaining space */
-}
-
-nav {
-margin-left: auto; /* Push the nav to the right */
-}
-
-nav ul {
-list-style: none; /* Remove default list styling */
-display: flex; /* Use flexbox for horizontal layout */
-}
-
-nav li {
-margin-left: 20px; /* Space between menu items */
-}
-
-nav a {
-color: white; /* Link color */
-text-decoration: none; /* Remove underline */
-transition: color 0.3s; /* Smooth color transition */
-}
-
-nav a:hover {
-color: #f4f4f4; /* Change color on hover */
-}
-
-button {
-padding: 10px 15px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-background-color: #0056b3;
-color: white;
-transition: background-color 0.3s;
-}
-
-button:hover {
-background-color: #004494;
-}
-
-.profile-pic {
-    width: 250px; /* Adjust size as needed */
-    height: 250px; /* Adjust size as needed */
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the image circular */
     margin-right: 20px; /* Space between image and text */
 }
@@ -83,8 +28,6 @@ background-color: #004494;
 nav ul {
     list-style: none;
     padding: 0;
-    margin-left: 30px; /* Space between image and text */
-    margin-top: 200px; /* Space between image and text */
 }
 
 nav ul li {
@@ -98,15 +41,15 @@ nav ul li a {
 }
 
 section {
-padding: 20px;
-margin: 20px;
-background: #fff;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skill {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .progress-bar {
@@ -116,7 +59,7 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .progress {
-    height: 10px;
+    height: 20px;
     background: #76c7c0;
 }
 
@@ -125,18 +68,13 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    padding: 8px 15px;
+    padding: 10px 15px;
     background: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
 }
-#theme-toggle {
-    margin-bottom: 200px ;
-}
-
 
 button:hover {
     background: #555;
@@ -144,24 +82,23 @@ button:hover {
 
 footer {
     text-align: center;
-    padding: 0px;
+    padding: 20px;
     background: #333;
     color: #fff;
 }
 
 #back-to-top {
-position: fixed;
-bottom: 20px;
-right: 20px;
-display: none;
-background: #333;
-color: #fff;
-border: none;
-border-radius: 5px;
-padding: 10px;
-cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
 }
-
 
 .dark-mode {
     background-color: #333;
@@ -178,4 +115,29 @@ cursor: pointer;
 
 .dark-mode footer {
     background: #222;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    section {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px; /* Reduce padding in header */
+    }
+
+    section {
+        padding: 15px; /* Reduce padding in sections */
+    }
+
+    nav ul li {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 }
