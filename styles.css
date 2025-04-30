@@ -179,3 +179,77 @@ cursor: pointer;
 .dark-mode footer {
     background: #222;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    section {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px; /* Reduce padding in header */
+    }
+
+    section {
+        padding: 15px; /* Reduce padding in sections */
+    }
+
+    nav ul li {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    section {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px; /* Reduce padding in header */
+    }
+
+    section {
+        padding: 15px; /* Reduce padding in sections */
+    }
+
+    nav ul li {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    section {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px; /* Reduce padding in header */
+    }
+
+    section {
+        padding: 15px; /* Reduce padding in sections */
+    }
+
+    nav ul li {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
